@@ -4,41 +4,33 @@ import javax.swing.*;
 /**
  * 여기에 MyMouseListener 클래스 설명을 작성하십시오.
  * 
- * @author (2018315026 정대기) 
+ * @author (2018315017 임민택, 2018315026 정대기, 2018315038 이혜인)
  * @version (2019-11-04)
  */
 public class MyMouseListener  extends JPanel implements MouseListener, MouseMotionListener
 {
     Label label;
+    JPanel panel;
     
-    public MyMouseListener(Label label){
+    public MyMouseListener(Label label, JPanel panel){
         this.label = label;
+        this.panel = panel;
     }
     
     public void mouseClicked(MouseEvent e){
         
     }
     public void mouseEntered(MouseEvent e){
-        Component c = (Component)e.getSource();
-        c.setBackground(Color.SKYBLUE);
+        panel.setBackground(Color.CYAN);
     }
     public void mouseExited(MouseEvent e){
-        Component c = (Component)e.getSource();
-        c.setBackground(Color.YELLOW);
+        panel.setBackground(Color.YELLOW);
     }
     public void mousePressed(MouseEvent e){
-<<<<<<< HEAD
-        label.setText("MousePressed ("+e.getX()+","+e.get()+")";
-=======
         label.setText("mousePressed("+ e.getX() + "," + e.getY() + ")" );
->>>>>>> 7f1963d8d0f188ade0dc8bd83560bab0e2129a34
     }
     public void mouseReleased(MouseEvent e){
-<<<<<<< HEAD
-        label.setText("MouseReleased("+e.getX()+","+e.getY()+")";
-=======
         label.setText("mousePressed("+ e.getX() + "," + e.getY() + ")" );
->>>>>>> 7f1963d8d0f188ade0dc8bd83560bab0e2129a34
     }
     public void mouseDragged(MouseEvent e){
         label.setText("mousePressed("+ e.getX() + "," + e.getY() + ")" );
