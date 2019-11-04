@@ -31,19 +31,19 @@ public class MyMouseListener  extends MouseAdapter implements MouseMotionListene
     }
 
     public void mousePressed(MouseEvent e){
-        label.setText("mousePressed("+ e.getX() + "," + e.getY() + ")" );
+        label.setText("MousePressed("+ e.getX() + "," + e.getY() + ")" );
     }
 
     public void mouseReleased(MouseEvent e){
-        label.setText("mouseReleased("+ e.getX() + "," + e.getY() + ")" );
+        label.setText("MouseReleased("+ e.getX() + "," + e.getY() + ")" );
     }
 
     public void mouseDragged(MouseEvent e){
-        label.setText("mouseDragged("+ e.getX() + "," + e.getY() + ")" );
+        label.setText("MouseDragged("+ e.getX() + "," + e.getY() + ")" );
     }
 
     public void mouseMoved(MouseEvent e){
-        label.setText("mouseMoved("+ e.getX() + "," + e.getY() + ")" );
+        label.setText("MouseMoved("+ e.getX() + "," + e.getY() + ")" );
     }
 }
  
