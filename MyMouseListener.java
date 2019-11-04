@@ -17,9 +17,7 @@ public class MyMouseListener  extends JPanel implements MouseListener, MouseMoti
         this.panel = panel;
     }
 
-    public void mouseClicked(MouseEvent e){
-
-    }
+    public void mouseClicked(MouseEvent e){}
 
     public void mouseEntered(MouseEvent e){
         panel.setBackground(Color.CYAN);
@@ -34,15 +32,15 @@ public class MyMouseListener  extends JPanel implements MouseListener, MouseMoti
     }
 
     public void mouseReleased(MouseEvent e){
-        label.setText("mousePressed("+ e.getX() + "," + e.getY() + ")" );
+        label.setText("mouseReleased("+ e.getX() + "," + e.getY() + ")" );
     }
 
     public void mouseDragged(MouseEvent e){
-        label.setText("mousePressed("+ e.getX() + "," + e.getY() + ")" );
+        label.setText("mouseDragged("+ e.getX() + "," + e.getY() + ")" );
     }
 
     public void mouseMoved(MouseEvent e){
-        label.setText("mousePressed("+ e.getX() + "," + e.getY() + ")" );
+        label.setText("mouseMoved("+ e.getX() + "," + e.getY() + ")" );
     }
 }
  
