@@ -1,33 +1,33 @@
-
+import java.awt.event.*;
+import javax.swing.*;
 /**
  * 여기에 MyMouseListener 클래스 설명을 작성하십시오.
  * 
- * @author (작성자 이름) 
- * @version (버전번호나 날짜)
+ * @author (2018315026 정대기) 
+ * @version (2019-11-04)
  */
-public class MyMouseListener
+public class MyMouseListener implements MouseListener, MouseMotionListener
 {
-    // 인스턴스 변수 - 다음의 예제를 사용자에 맞게 바꾸십시오
-    private int x;
-
-    /**
-     * MyMouseListener 클래스의 객체 생성자
-     */
-    public MyMouseListener()
-    {
-        // 인스턴스 변수의 초기화
-        x = 0;
+    public void mouseClicked(MouseEvent e){
+        
     }
-
-    /**
-     * 예제 메소드 - 이 주석을 사용자에 맞게 바꾸십시오
-     * 
-     * @param  y   메소드의 예제 매개변수
-     * @return     x 더하기 y 
-     */
-    public int sampleMethod(int y)
-    {
-        // 여기에 코드를 작성하십시오.
-        return x + y;
+    public void mouseEntered(MouseEvent e){
+        
+    }
+    public void mouseExited(MouseEvent e){
+        
+    }
+    public void mousePressed(MouseEvent e){
+        
+    }
+    public void mouseReleased(MouseEvent e){
+        
+    }
+    public void mouseDragged(MouseEvent e){
+        
+    }
+    public void mouseMoved(MouseEvent e){
+        
     }
 }
+    
