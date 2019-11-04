@@ -22,11 +22,13 @@ public class MyMouseListener  extends JPanel implements MouseListener, MouseMoti
     public void mouseEntered(MouseEvent e){
         JPanel panel = (JPanel)e.getSource();
         panel.setBackground(Color.CYAN);
+        label.setBackground(Color.CYAN);
     }
 
     public void mouseExited(MouseEvent e){
         JPanel panel = (JPanel)e.getSource();
         panel.setBackground(Color.YELLOW);
+        label.setBackground(Color.YELLOW);
     }
 
     public void mousePressed(MouseEvent e){
