@@ -1,10 +1,10 @@
 import javax.swing.*;
 import java.awt.*;
 /**
- * 여기에 MyMouseFrame 클래스 설명을 작성하십시오.
+ * Frame에 panel을 추가여 리스너 이벤트를 적용한 클래스
  * 
- * @author (작성자 이름) 
- * @version (버전번호나 날짜)
+ * @author (2018315017 임민택, 2018315026 정대기, 2018315038 이혜인) 
+ * @version (2019.11.04)
  */
 public class MyMouseFrame extends JFrame
 {
