@@ -11,32 +11,38 @@ public class MyMouseListener  extends JPanel implements MouseListener, MouseMoti
 {
     Label label;
     JPanel panel;
-    
+
     public MyMouseListener(Label label, JPanel panel){
         this.label = label;
         this.panel = panel;
     }
-    
+
     public void mouseClicked(MouseEvent e){
-        
+
     }
+
     public void mouseEntered(MouseEvent e){
         panel.setBackground(Color.CYAN);
     }
+
     public void mouseExited(MouseEvent e){
         panel.setBackground(Color.YELLOW);
     }
+
     public void mousePressed(MouseEvent e){
         label.setText("mousePressed("+ e.getX() + "," + e.getY() + ")" );
     }
+
     public void mouseReleased(MouseEvent e){
         label.setText("mousePressed("+ e.getX() + "," + e.getY() + ")" );
     }
+
     public void mouseDragged(MouseEvent e){
         label.setText("mousePressed("+ e.getX() + "," + e.getY() + ")" );
     }
+
     public void mouseMoved(MouseEvent e){
         label.setText("mousePressed("+ e.getX() + "," + e.getY() + ")" );
     }
 }
-    
+ 
