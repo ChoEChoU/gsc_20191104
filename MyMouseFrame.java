@@ -20,7 +20,7 @@ public class MyMouseFrame extends JFrame
         
         panel.addMouseListener(new MyMouseListener(label, panel));
         
-        this.setSize(300, 400);
+        this.setSize(800, 800);
         this.setVisible(true);
     }
 }
