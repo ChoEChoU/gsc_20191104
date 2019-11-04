@@ -7,7 +7,7 @@ import javax.swing.*;
  * @author (2018315017 임민택, 2018315026 정대기, 2018315038 이혜인)
  * @version (2019-11-04)
  */
-public class MyMouseListener  extends JPanel implements MouseListener, MouseMotionListener
+public class MyMouseListener  extends MouseAdapter implements MouseMotionListener
 {
     Label label;
     JPanel panel;
@@ -17,11 +17,10 @@ public class MyMouseListener  extends JPanel implements MouseListener, MouseMoti
         this.panel = panel;
     }
 
-    public void mouseClicked(MouseEvent e){}
-
     public void mouseEntered(MouseEvent e){
         JPanel panel = (JPanel)e.getSource();
         panel.setBackground(Color.CYAN);
+        label.setSize(200,20);
         label.setBackground(Color.CYAN);
     }
 

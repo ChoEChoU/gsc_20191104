@@ -15,7 +15,8 @@ public class MyMouseFrame extends JFrame
         JPanel panel = new JPanel();
         this.add(panel);
         
-        Label label = new Label("NoMouseEvent");
+        Label label = new Label("No Mouse Event");
+        label.setSize(100,100);
         panel.add(label);
         
         panel.addMouseListener(new MyMouseListener(label, panel));
