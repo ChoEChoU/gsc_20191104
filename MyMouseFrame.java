@@ -12,6 +12,9 @@ public class MyMouseFrame extends JFrame
         this.setTitle("MouseListener & MouseMotionListener");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
+        JPanel panel = new JPanel();
+        this.add(panel);
+        
         this.setSize(100, 100);
         this.setVisible(true);
     }
