@@ -2,7 +2,7 @@ import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
 /**
- * 여기에 MyMouseListener 클래스 설명을 작성하십시오.
+ * 마우스 이벤트와 마우스 모션 이벤트를 구현한 MyMouseListener
  * 
  * @author (2018315017 임민택, 2018315026 정대기, 2018315038 이혜인)
  * @version (2019-11-04)
